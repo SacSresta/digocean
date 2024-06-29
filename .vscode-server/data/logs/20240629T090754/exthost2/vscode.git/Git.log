@@ -1,0 +1,37 @@
+2024-06-29 09:08:26.902 [info] Log level: Info
+2024-06-29 09:08:26.902 [info] Validating found git in: "git"
+2024-06-29 09:08:26.902 [info] Using git "2.43.0" from "git"
+2024-06-29 09:08:26.902 [info] > git rev-parse --show-toplevel [25ms]
+2024-06-29 09:08:26.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:26.902 [info] > git rev-parse --show-toplevel [425ms]
+2024-06-29 09:08:26.902 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:26.914 [info] > git rev-parse --show-toplevel [42ms]
+2024-06-29 09:08:26.914 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:26.971 [info] > git rev-parse --show-toplevel [13ms]
+2024-06-29 09:08:26.972 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:27.002 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-29 09:08:27.002 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:27.031 [info] > git rev-parse --show-toplevel [10ms]
+2024-06-29 09:08:27.033 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:27.085 [info] > git rev-parse --show-toplevel [21ms]
+2024-06-29 09:08:27.134 [info] > git rev-parse --git-dir --git-common-dir [26ms]
+2024-06-29 09:08:27.284 [info] Open repository: /root/bot
+2024-06-29 09:08:27.628 [info] > git config --get commit.template [240ms]
+2024-06-29 09:08:27.639 [info] > git rev-parse --show-toplevel [235ms]
+2024-06-29 09:08:27.639 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:27.901 [info] > git rev-parse --show-toplevel [219ms]
+2024-06-29 09:08:27.901 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-29 09:08:27.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [246ms]
+2024-06-29 09:08:29.581 [info] > git check-ignore -v -z --stdin [1574ms]
+2024-06-29 09:08:37.320 [info] > git fetch [10036ms]
+2024-06-29 09:08:37.320 [info] From https://github.com/SacSresta/NNFX-BOT
+   1f76f233..01bff2c8  PIP        -> origin/PIP
+2024-06-29 09:08:37.364 [info] > git status -z -uall [9398ms] (cancelled)
+2024-06-29 09:08:37.377 [info] > git config --get commit.template [9ms]
+2024-06-29 09:08:37.377 [info] > git config --get commit.template [28ms]
+2024-06-29 09:08:37.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [19ms]
+2024-06-29 09:08:37.417 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [13ms]
+2024-06-29 09:08:58.661 [info] > git status -z -uall [21221ms] (cancelled)
+2024-06-29 09:09:15.537 [info] > git merge-base refs/heads/PIP refs/remotes/origin/PIP [3273ms]
+2024-06-29 09:09:15.624 [info] > git rev-list --count --left-right refs/heads/PIP...refs/remotes/origin/PIP [42ms]
+2024-06-29 09:09:15.865 [info] > git diff --name-status -z --diff-filter=ADMR 1f76f2332d0e93359840465fcbce02a04c0e09c2...refs/remotes/origin/PIP [156ms]

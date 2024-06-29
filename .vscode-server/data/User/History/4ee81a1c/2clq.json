@@ -1,0 +1,25 @@
+{
+    "emmet.includeLanguages": {
+        
+        "django-html": "html", 
+        },
+        "redhat.telemetry.enabled": true,
+        "git.autofetch": true,
+        "git.enableSmartCommit": true,
+        "files.autoSave": "afterDelay",
+        "editor.mouseWheelZoom": true,
+        "livePreview.hostIP": "192.168.4.64",
+        "livePreview.portNumber": 5000,
+        "workbench.iconTheme": "icons",
+        "workbench.colorTheme": "JellyFish",
+        "liveServer.settings.donotShowInfoMsg": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "remote.SSH.remotePlatform": {
+            "BotDO": "linux",
+            "BotDo": "linux",
+            "TALIB": "linux",
+            "NNFXBOT": "linux"
+        },
+        "jupyter.askForKernelRestart": false,
+        "github.copilot.editor.enableAutoCompletions": true,
+}

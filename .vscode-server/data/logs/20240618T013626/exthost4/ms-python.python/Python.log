@@ -1,0 +1,77 @@
+2024-06-18 03:28:57.384 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-06-18 03:28:57.384 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-06-18 03:28:57.384 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-06-18 03:28:57.384 [info] Experiment 'pythonTestAdapter' is active
+2024-06-18 03:28:57.384 [info] Default formatter is set to null for workspace /root
+2024-06-18 03:28:57.384 [info] Starting Environment refresh
+2024-06-18 03:28:57.384 [info] Searching for interpreters in posix paths locator
+2024-06-18 03:28:57.384 [info] Searching for pyenv environments
+2024-06-18 03:28:57.384 [info] Searching for conda environments
+2024-06-18 03:28:57.384 [info] Searching for global virtual environments
+2024-06-18 03:28:57.384 [info] Searching for custom virtual environments
+2024-06-18 03:28:57.384 [info] pyenv is not installed
+2024-06-18 03:28:57.384 [info] Finished searching for pyenv environments: 551 milliseconds
+2024-06-18 03:28:57.384 [info] Finished searching for custom virtual envs: 555 milliseconds
+2024-06-18 03:28:57.384 [info] > conda info --json
+2024-06-18 03:28:57.384 [info] > hatch env show --json
+2024-06-18 03:28:57.384 [info] cwd: .
+2024-06-18 03:28:57.384 [info] Finished searching for global virtual envs: 655 milliseconds
+2024-06-18 03:28:57.384 [info] Found: /bin/python3 --> /bin/python3.12
+2024-06-18 03:28:57.385 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-06-18 03:28:57.415 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-06-18 03:28:57.416 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-06-18 03:28:57.427 [info] > C:\Users\sachi\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-06-18 03:28:57.432 [error] [Error: Command failed: C:\Users\sachi\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UserssachiAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\sachi\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py'
+}
+2024-06-18 03:28:57.466 [info] Finished searching for interpreters in posix paths locator: 772 milliseconds
+2024-06-18 03:28:57.466 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-06-18 03:28:57.485 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-06-18 03:28:57.486 [info] Environments refresh paths discovered (event): 800 milliseconds
+2024-06-18 03:28:57.486 [info] Environments refresh paths discovered: 801 milliseconds
+2024-06-18 03:28:59.439 [info] > C:\Users\sachi\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+2024-06-18 03:28:59.441 [error] [Error: Command failed: C:\Users\sachi\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UserssachiAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\sachi\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.8.1/python_files/interpreterInfo.py'
+}
+2024-06-18 03:28:59.441 [info] Environments refresh finished (event): 2756 milliseconds
+2024-06-18 03:28:59.445 [info] Environment refresh took 2761 milliseconds
+2024-06-18 03:28:59.451 [info] > pyenv which python
+2024-06-18 03:28:59.451 [info] cwd: .
+2024-06-18 03:28:59.464 [info] Python interpreter path: /bin/python3
+2024-06-18 03:28:59.466 [info] Discover tests for workspace name: root - uri: /root
+2024-06-18 03:29:00.692 [info] Starting Pylance language server.
+2024-06-18 03:29:03.043 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:29:04.452 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:29:19.868 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:29:29.719 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:29:32.218 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:29:37.017 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:29:39.230 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:35:51.043 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:35:54.710 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:35:56.315 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:41:01.913 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:41:06.464 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py
+2024-06-18 03:42:37.790 [info] Discover tests for workspace name: root - uri: /root/bot/cech.py

@@ -1,0 +1,57 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-d86814ec-5049-4c58-bea0-24e85b6f5ba7
+Extension host agent listening on /tmp/code-d86814ec-5049-4c58-bea0-24e85b6f5ba7
+
+[10:20:02] 
+
+
+
+
+[10:20:02] Extension host agent started.
+[10:20:03] [<unknown>][8a065eb3][ManagementConnection] New connection established.
+[10:20:03] [<unknown>][92516fb5][ExtensionHostConnection] New connection established.
+[10:20:03] [<unknown>][92516fb5][ExtensionHostConnection] <39559> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[10:20:05] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[10:20:12] [<unknown>][ed77dfd0][ExtensionHostConnection] New connection established.
+[10:20:12] [<unknown>][ed77dfd0][ExtensionHostConnection] <39704> Launched Extension Host Process.
+[10:20:12] [<unknown>][e0233c07][ManagementConnection] New connection established.
+[10:20:46] Getting Manifest... mechatroner.rainbow-csv
+[10:20:46] Installing extension: mechatroner.rainbow-csv file:///root/.vscode-server/extensions/extensions.json
+[10:20:48] Extension signature verification result for mechatroner.rainbow-csv: Success. Executed: true. Duration: 1169ms.
+[10:20:48] Extracted extension to file:///root/.vscode-server/extensions/mechatroner.rainbow-csv-3.12.0: mechatroner.rainbow-csv
+[10:20:48] Renamed to /root/.vscode-server/extensions/mechatroner.rainbow-csv-3.12.0
+[10:20:48] Extension installed successfully: mechatroner.rainbow-csv file:///root/.vscode-server/extensions/extensions.json

@@ -1,0 +1,18 @@
+2024-06-18 01:47:23.605 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-06-18 01:47:24.140 [info] [Info  - 1:47:24 AM] (8399) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-18 01:47:24.140 [info] [Info  - 1:47:24 AM] (8399) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-18 01:47:24.140 [info] [Info  - 1:47:24 AM] (8399) Starting service instance "root"
+2024-06-18 01:47:24.177 [info] Auto-Indent enabled
+2024-06-18 01:47:24.197 [info] Auto-Indent enabled
+2024-06-18 01:47:24.200 [info] [Info  - 1:47:24 AM] (8399) Setting environmentName for service "root": "C:\Users\sachi\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2024-06-18 01:47:24.291 [info] [Info  - 1:47:24 AM] (8399) Auto-excluding /root/bot/bot
+2024-06-18 01:47:24.308 [info] [Info  - 1:47:24 AM] (8399) Auto-excluding /root/bot/ta-lib/myenv
+2024-06-18 01:47:24.445 [info] [Info  - 1:47:24 AM] (8399) Found 30 source files
+2024-06-18 01:47:24.449 [info] Auto-Indent enabled
+2024-06-18 01:47:24.674 [info] [Info  - 1:47:24 AM] (8399) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-18 01:47:24.679 [info] [Info  - 1:47:24 AM] (8399) Background analysis(1) started
+2024-06-18 01:47:25.203 [info] [Info  - 1:47:25 AM] (8399) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist (index)
+2024-06-18 01:47:25.205 [info] [Info  - 1:47:25 AM] (8399) Indexing(2) started
+2024-06-18 01:47:26.285 [info] [Info  - 1:47:26 AM] (8399) scanned(2) 92 files over 1 exec env
+2024-06-18 01:47:28.448 [info] [Info  - 1:47:28 AM] (8399) indexed(2) 57 files over 1 exec env
+2024-06-18 01:47:28.501 [info] [Info  - 1:47:28 AM] (8399) Indexing finished(2).

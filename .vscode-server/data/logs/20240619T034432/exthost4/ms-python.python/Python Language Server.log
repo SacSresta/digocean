@@ -1,0 +1,22 @@
+2024-06-19 03:46:01.244 [info] (Client) Pylance async client (2024.6.1) started with python extension (2024.8.1)
+2024-06-19 03:46:02.319 [info] [Info  - 3:46:02 AM] (35970) Pylance language server 2024.6.1 (pyright version 1.1.364, commit 0618acc5) starting
+2024-06-19 03:46:02.323 [info] [Info  - 3:46:02 AM] (35970) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-19 03:46:02.325 [info] [Info  - 3:46:02 AM] (35970) Starting service instance "root"
+2024-06-19 03:46:02.555 [info] Auto-Indent enabled
+2024-06-19 03:46:02.602 [info] Auto-Indent enabled
+2024-06-19 03:46:02.607 [info] [Info  - 3:46:02 AM] (35970) Setting pythonPath for service "root": "/bin/python3"
+2024-06-19 03:46:02.608 [info] [Info  - 3:46:02 AM] (35970) Setting environmentName for service "root": "3.12.3 (global)"
+2024-06-19 03:46:02.684 [info] [Info  - 3:46:02 AM] (35970) Assuming Python version 3.12.3.final.0
+2024-06-19 03:46:02.866 [info] [Info  - 3:46:02 AM] (35970) Auto-excluding /root/bot/bot
+2024-06-19 03:46:02.892 [info] [Info  - 3:46:02 AM] (35970) Auto-excluding /root/bot/ta-lib/myenv
+2024-06-19 03:46:03.244 [info] [Info  - 3:46:03 AM] (35970) Found 30 source files
+2024-06-19 03:46:03.261 [info] Auto-Indent enabled
+2024-06-19 03:46:04.071 [info] [Info  - 3:46:04 AM] (35970) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist
+2024-06-19 03:46:04.071 [info] [Info  - 3:46:04 AM] (35970) Background analysis(1) started
+2024-06-19 03:46:05.027 [info] [Info  - 3:46:05 AM] (35970) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.6.1/dist (index)
+2024-06-19 03:46:05.033 [info] [Info  - 3:46:05 AM] (35970) Indexing(2) started
+2024-06-19 03:46:06.936 [info] [Info  - 3:46:06 AM] (35970) scanned(2) 92 files over 1 exec env
+2024-06-19 03:46:08.000 [info] [Info  - 3:46:08 AM] (35970) indexed(2) 57 files over 1 exec env
+2024-06-19 03:46:08.075 [info] [Info  - 3:46:08 AM] (35970) Indexing finished(2).
+2024-06-19 03:46:08.650 [info] [Info  - 3:46:08 AM] (35970) [BG(1)] Long operation: checking: file:///root/bot/main.py (3442ms)
+2024-06-19 03:46:08.651 [info] [Info  - 3:46:08 AM] (35970) [BG(1)] Long operation: analyzing: file:///root/bot/main.py (4226ms)

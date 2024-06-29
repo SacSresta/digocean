@@ -1,0 +1,50 @@
+2024-06-18 03:44:23.607 [info] Log level: Info
+2024-06-18 03:44:23.607 [info] Validating found git in: "git"
+2024-06-18 03:44:23.607 [info] Using git "2.43.0" from "git"
+2024-06-18 03:44:23.607 [info] > git rev-parse --show-toplevel [189ms]
+2024-06-18 03:44:23.607 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:44:23.607 [info] > git rev-parse --show-toplevel [40ms]
+2024-06-18 03:44:23.621 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-06-18 03:44:23.639 [info] Open repository: /root/bot
+2024-06-18 03:44:23.679 [info] > git config --get commit.template [25ms]
+2024-06-18 03:44:23.690 [info] > git rev-parse --show-toplevel [29ms]
+2024-06-18 03:44:23.693 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:44:23.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [13ms]
+2024-06-18 03:44:23.721 [info] > git rev-parse --show-toplevel [10ms]
+2024-06-18 03:44:23.721 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:44:23.749 [info] > git rev-parse --show-toplevel [20ms]
+2024-06-18 03:44:23.750 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:44:23.768 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-18 03:44:23.768 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:44:23.784 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-18 03:44:23.786 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:44:24.280 [info] > git check-ignore -v -z --stdin [84ms]
+2024-06-18 03:44:24.289 [info] > git show --textconv :cech.py [56ms]
+2024-06-18 03:44:24.300 [info] > git ls-files --stage -- /root/bot/cech.py [54ms]
+2024-06-18 03:44:24.314 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2024-06-18 03:44:24.586 [info] > git fetch [948ms]
+2024-06-18 03:44:24.606 [info] > git status -z -uall [864ms] (cancelled)
+2024-06-18 03:44:24.608 [info] > git config --get commit.template [11ms]
+2024-06-18 03:44:24.653 [info] > git config --get commit.template [48ms]
+2024-06-18 03:44:24.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [7ms]
+2024-06-18 03:44:24.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [19ms]
+2024-06-18 03:44:31.216 [info] > git status -z -uall [6517ms] (cancelled)
+2024-06-18 03:44:44.958 [info] > git check-ignore -v -z --stdin [17ms]
+2024-06-18 03:47:19.350 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-18 03:47:19.350 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:47:19.887 [info] > git check-ignore -v -z --stdin [19ms]
+2024-06-18 03:47:27.682 [info] > git show --textconv :main.py [15ms]
+2024-06-18 03:47:27.685 [info] > git ls-files --stage -- /root/bot/main.py [13ms]
+2024-06-18 03:47:27.691 [info] > git cat-file -s 6172c19e00298ba541d22d769d9db3b1c8dfc41c [1ms]
+2024-06-18 03:47:30.405 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-18 03:47:30.405 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 03:48:07.668 [info] > git show --textconv :supervisor-bot.conf [12ms]
+2024-06-18 03:48:07.684 [info] > git ls-files --stage -- /root/bot/supervisor-bot.conf [20ms]
+2024-06-18 03:48:07.933 [info] > git check-ignore -v -z --stdin [12ms]
+2024-06-18 03:48:32.109 [info] > git check-ignore -v -z --stdin [18ms]
+2024-06-18 03:48:34.911 [info] > git check-ignore -v -z --stdin [33ms]
+2024-06-18 03:52:02.413 [info] > git show --textconv :main.py [14ms]
+2024-06-18 03:52:02.424 [info] > git ls-files --stage -- /root/bot/main.py [17ms]
+2024-06-18 03:52:02.431 [info] > git cat-file -s 6172c19e00298ba541d22d769d9db3b1c8dfc41c [2ms]
+2024-06-18 05:05:02.743 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-18 05:05:02.743 [info] fatal: not a git repository (or any of the parent directories): .git

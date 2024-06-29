@@ -1,0 +1,31 @@
+2024-06-19 03:45:59.940 [info] Log level: Info
+2024-06-19 03:45:59.940 [info] Validating found git in: "git"
+2024-06-19 03:45:59.940 [info] Using git "2.43.0" from "git"
+2024-06-19 03:45:59.940 [info] > git rev-parse --show-toplevel [18ms]
+2024-06-19 03:45:59.940 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-19 03:45:59.940 [info] > git rev-parse --show-toplevel [17ms]
+2024-06-19 03:45:59.959 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2024-06-19 03:46:00.003 [info] Open repository: /root/bot
+2024-06-19 03:46:00.131 [info] > git config --get commit.template [106ms]
+2024-06-19 03:46:00.158 [info] > git rev-parse --show-toplevel [51ms]
+2024-06-19 03:46:00.158 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-19 03:46:00.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [29ms]
+2024-06-19 03:46:00.200 [info] > git rev-parse --show-toplevel [26ms]
+2024-06-19 03:46:00.200 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-19 03:46:00.225 [info] > git rev-parse --show-toplevel [16ms]
+2024-06-19 03:46:00.225 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-19 03:46:00.253 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-19 03:46:00.253 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-19 03:46:00.323 [info] > git rev-parse --show-toplevel [57ms]
+2024-06-19 03:46:00.323 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-19 03:46:00.836 [info] > git check-ignore -v -z --stdin [282ms]
+2024-06-19 03:46:00.915 [info] > git fetch [913ms]
+2024-06-19 03:46:00.956 [info] > git status -z -uall [732ms] (cancelled)
+2024-06-19 03:46:00.956 [info] > git show --textconv :main.py [73ms]
+2024-06-19 03:46:00.972 [info] > git config --get commit.template [15ms]
+2024-06-19 03:46:00.972 [info] > git config --get commit.template [26ms]
+2024-06-19 03:46:00.972 [info] > git ls-files --stage -- /root/bot/main.py [69ms]
+2024-06-19 03:46:01.015 [info] > git cat-file -s 6172c19e00298ba541d22d769d9db3b1c8dfc41c [32ms]
+2024-06-19 03:46:01.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [16ms]
+2024-06-19 03:46:01.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [11ms]
+2024-06-19 03:46:08.176 [info] > git status -z -uall [7147ms] (cancelled)

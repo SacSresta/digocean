@@ -1,0 +1,13 @@
+2024-06-29 09:07:54.252 [info] 
+
+
+
+
+2024-06-29 09:07:54.267 [info] Extension host agent started.
+2024-06-29 09:07:54.363 [info] [<unknown>][815e22aa][ExtensionHostConnection] New connection established.
+2024-06-29 09:07:54.381 [info] [<unknown>][12481271][ManagementConnection] New connection established.
+2024-06-29 09:07:54.604 [info] [<unknown>][815e22aa][ExtensionHostConnection] <73257> Launched Extension Host Process.
+2024-06-29 09:08:21.809 [info] [<unknown>][a7da2f2a][ManagementConnection] New connection established.
+2024-06-29 09:08:21.818 [info] [<unknown>][42d0e6fb][ExtensionHostConnection] New connection established.
+2024-06-29 09:08:21.826 [info] [<unknown>][42d0e6fb][ExtensionHostConnection] <73408> Launched Extension Host Process.
+2024-06-29 09:09:07.783 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /root)

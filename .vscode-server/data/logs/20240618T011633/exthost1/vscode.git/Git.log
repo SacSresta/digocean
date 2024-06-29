@@ -1,0 +1,39 @@
+2024-06-18 01:16:37.087 [info] Log level: Info
+2024-06-18 01:16:37.087 [info] Validating found git in: "git"
+2024-06-18 01:16:37.087 [info] Using git "2.43.0" from "git"
+2024-06-18 01:16:37.087 [info] > git rev-parse --show-toplevel [224ms]
+2024-06-18 01:16:37.087 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 01:16:37.087 [info] > git rev-parse --show-toplevel [21ms]
+2024-06-18 01:16:37.087 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 01:16:37.095 [info] > git rev-parse --show-toplevel [7ms]
+2024-06-18 01:16:37.095 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 01:16:37.116 [info] > git rev-parse --show-toplevel [10ms]
+2024-06-18 01:16:37.116 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-18 01:16:37.149 [info] > git rev-parse --show-toplevel [17ms]
+2024-06-18 01:16:37.185 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2024-06-18 01:16:37.252 [info] Open repository: /root/bot
+2024-06-18 01:16:37.483 [info] > git config --get commit.template [141ms]
+2024-06-18 01:16:37.594 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [95ms]
+2024-06-18 01:16:38.633 [info] > git check-ignore -v -z --stdin [673ms]
+2024-06-18 01:16:40.475 [info] > git check-ignore -v -z --stdin [61ms]
+2024-06-18 01:16:52.050 [info] > git status -z -uall [14426ms]
+2024-06-18 01:16:52.138 [info] > git merge-base refs/heads/PIP refs/remotes/origin/PIP [51ms]
+2024-06-18 01:16:52.147 [info] > git config --get commit.template [7ms]
+2024-06-18 01:16:52.156 [info] > git rev-list --count --left-right refs/heads/PIP...refs/remotes/origin/PIP [12ms]
+2024-06-18 01:16:52.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [9ms]
+2024-06-18 01:16:52.166 [info] > git diff --name-status -z --diff-filter=ADMR 1f76f2332d0e93359840465fcbce02a04c0e09c2...refs/remotes/origin/PIP [6ms]
+2024-06-18 01:17:01.928 [info] > git status -z -uall [9762ms]
+2024-06-18 01:17:38.219 [info] > git fetch [822ms]
+2024-06-18 01:17:38.232 [info] > git config --get commit.template [8ms]
+2024-06-18 01:17:38.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [4ms]
+2024-06-18 01:17:47.488 [info] > git status -z -uall [9248ms]
+2024-06-18 01:18:11.473 [info] > git config --get commit.template [6ms]
+2024-06-18 01:18:11.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [5ms]
+2024-06-18 01:18:21.694 [info] > git status -z -uall [10213ms]
+2024-06-18 01:18:26.737 [info] > git config --get commit.template [6ms]
+2024-06-18 01:18:26.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [5ms]
+2024-06-18 01:18:41.181 [info] > git status -z -uall [14437ms]
+2024-06-18 01:26:34.237 [info] > git fetch [330673ms]
+2024-06-18 01:26:34.237 [info] fatal: unable to access 'https://github.com/SacSresta/NNFX-BOT.git/': Send failure: Broken pipe
+2024-06-18 01:26:34.626 [info] > git config --get commit.template [169ms]
+2024-06-18 01:26:34.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/PIP refs/remotes/PIP [70ms]

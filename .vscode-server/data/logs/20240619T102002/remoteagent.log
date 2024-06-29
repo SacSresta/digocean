@@ -1,0 +1,40 @@
+2024-06-19 10:20:02.962 [info] 
+
+
+
+
+2024-06-19 10:20:02.976 [info] Extension host agent started.
+2024-06-19 10:20:03.062 [info] [<unknown>][8a065eb3][ManagementConnection] New connection established.
+2024-06-19 10:20:03.082 [info] [<unknown>][92516fb5][ExtensionHostConnection] New connection established.
+2024-06-19 10:20:03.204 [info] [<unknown>][92516fb5][ExtensionHostConnection] <39559> Launched Extension Host Process.
+2024-06-19 10:20:05.319 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:30556)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:25756)
+    at R.D.<computed> (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:55:21031)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:36:5367)
+    at a.s (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5482)
+    at a.q (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4923)
+    at m.value (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:34:4223)
+    at r.y (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:29:668)
+    at r.fire (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:29:885)
+    at process.$e (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-06-19 10:20:12.190 [info] [<unknown>][ed77dfd0][ExtensionHostConnection] New connection established.
+2024-06-19 10:20:12.196 [info] [<unknown>][ed77dfd0][ExtensionHostConnection] <39704> Launched Extension Host Process.
+2024-06-19 10:20:12.200 [info] [<unknown>][e0233c07][ManagementConnection] New connection established.
+2024-06-19 10:20:46.630 [info] Getting Manifest... mechatroner.rainbow-csv
+2024-06-19 10:20:46.657 [info] Installing extension: mechatroner.rainbow-csv file:///root/.vscode-server/extensions/extensions.json
+2024-06-19 10:20:48.254 [info] Extension signature verification result for mechatroner.rainbow-csv: Success. Executed: true. Duration: 1169ms.
+2024-06-19 10:20:48.396 [info] Extracted extension to file:///root/.vscode-server/extensions/mechatroner.rainbow-csv-3.12.0: mechatroner.rainbow-csv
+2024-06-19 10:20:48.402 [info] Renamed to /root/.vscode-server/extensions/mechatroner.rainbow-csv-3.12.0
+2024-06-19 10:20:48.479 [info] Extension installed successfully: mechatroner.rainbow-csv file:///root/.vscode-server/extensions/extensions.json
+2024-06-19 10:25:02.978 [info] New EH opened, aborting shutdown
+2024-06-19 10:25:02.979 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/cli/servers/Stable-611f9bfce64f25108829dd295f54a6894e87339d/server/out/vs/server/node/server.main.js:191:6373)
+    at process.emit (node:events:518:28)
+2024-06-19 10:25:12.371 [info] [<unknown>][92516fb5][ExtensionHostConnection] <39559> Extension Host Process exited with code: 0, signal: null.
+2024-06-19 14:08:07.534 [info] [<unknown>][ed77dfd0][ExtensionHostConnection] <39704> Extension Host Process exited with code: 0, signal: null.
+2024-06-19 14:08:07.535 [info] Last EH closed, waiting before shutting down
+2024-06-19 14:13:07.536 [info] Last EH closed, shutting down
